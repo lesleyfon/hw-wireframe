@@ -1,48 +1,51 @@
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    max-width: 960px;
+    font-size: 18px;
+    width: 960px;
+    margin: 2% auto 0;
+}
+
+
 header, footer {
-    background-color: grey;
+    background-color: #ebebeb;
     text-align: center;
     padding: 2px;
-    height: 70px;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 2%;
 
- 
 }
+
+
 nav {
     clear: both;
-    background-color: gray;
+    background-color: #ebebeb;
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
     padding-top: 1%;
     height: 70px;
-    width: 80%
+    width: 960px
    
  
     
 }
-
-
 section { 
-    background-color: darkorchid;
-    width:40%;
+    background-color: #ebebeb;
+    width: 495px;
     float: left;
     height: 350px;
-    margin-right:4px;
-    margin-left: 10%;
-    text-align: center;
-  
- 
-
    
+    text-align: center;
+
 }
 
+article{
+    color: #ebebeb;
+    background-color: #777
+}
 aside {
     float: left;
-    width: 40%;
-    background-color: cyan;
+    width: 460px;
+    background-color: #ebebeb;
     height: 350px;
     margin-left: 4px;
     margin-bottom: 2px;
@@ -50,14 +53,14 @@ aside {
   
 }
 .move{
-    clear: both;
-    margin-top: 19%;
+    /* clear: both; */
+    margin-top: 38%;
  
    
 }
 
 .in-side{
-    background-color: burlywood;
+  background-color: #777;
   padding: 20px;
   height: 225px;
   margin-right:8px;
@@ -66,14 +69,21 @@ aside {
 }
 
 .header-inside{
-    background-color: azure;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    background-color: #ebebeb;
+    color: #777;
+    padding: 2px;
 }
 
 .para{
-    background-color: azure;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    margin-top: 15px
+    background-color: #ebebeb;
+    color: #777;
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+}
+
+footer {
+    clear: both;
+    
 }
